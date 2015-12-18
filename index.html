@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="vario">
+	<head>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <!-- Change in meta description(Use most comman keyword in this and titles) -->
+    <meta name="description" content="type_here_your_description">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>vario.fitness</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.jscrollpane.min.css" />
+    <link href="css/customSelectBox.min.css" rel="stylesheet" >
+    <link href="css/style.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="css/mediaquery.min.css">
+    <link rel="shortcut icon" href="http://www.vario.fitness/images/tab_logo.png">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="container-fluid">
+		  <div class="row">
+		  	<div class="header-nav">
+		      	<div class="col-lg-12 clear">
+		          	<div id="logo" class="float-left">
+		         	    	<a href="index.html"><img src="images/logo.png" alt="logo"/></a>
+		              </div>
+		              <div class="header-right float-left">
+		              	<table width="500" align="right">
+		              		<tr>
+		              			<td width="150"><a href="https://itunes.apple.com/us/app/vario.fitness/id1031868476?mt=8" target="_blank"><img src="images/ios.png" alt="ios" width="150" height="45"></a></td>
+                             <td width="10">&nbsp;</td>
+                             <td width="150"><a href="https://play.google.com/store/apps/details?id=com.saltriver.variopass&hl=en" target="_blank"><img src="images/gp.png" alt="gp" width="150" height="45"></a></td>
+                        <td  width="140" ><a href="http://www.vario.fitness/app" id="login">login</a></td>
+		              		</tr>
+		              	</table>
+		              </div>
+		          </div>
+		      </div>
+		  </div>
+		</div>
+  	<ul class="social">
+  		<li><a href="https://www.facebook.com/VarioFitnessApp/" target="_blank" class="icon facebook"></a></li>
+    	<li><a href="https://twitter.com/variofitness" target="_blank" class="icon twitter"></a></li>
+    	<li><a href="https://www.pinterest.com/variofitness/" target="_blank" class="icon pinterest"></a></li>
+    	<li><a href="https://instagram.com/variofitness/" target="_blank" class="icon instagram"></a></li>
+  	</ul>
+	  <div class="container-fluid nopadding header-img clearfix">
+	    <div class="col-lg-5 col-md-5 nopadding header-section">
+	  	  <div class="gif-img ogif-1">
+	  		  <div class="img-logo1"></div>
+	      </div>
+	      <div class="gif-img ogif-2">
+	  		  <div class="img-logo2"></div>
+	      </div>
+	      <div class="gif-img ogif-3">
+	  		  <div class="img-logo3"></div>
+	      </div>
+	      <div class="gif-img ogif-4">
+	  		  <div class="img-logo4"></div>
+	      </div>
+	      <div class="gif-img ogif-5">
+	  		  <div class="img-logo5"></div>
+	      </div>
+	      <div class="gif-img igif-1">
+	  		  <div class="img-logo6"></div>
+	      </div>
+	      <div class="gif-img igif-2">
+	  		  <div class="img-logo7"></div>
+	      </div>
+	      <div class="gif-img igif-3">
+	  		  <div class="img-logo8"></div>
+	      </div>
+	      <div class="gif-img igif-4">
+	  		  <div class="img-logo9"></div>
+	      </div>
+	      <div class="gif-img igif-5">
+	  		  <div class="img-logo10"></div>
+	      </div>
+	    </div>
+	    <div class="col-lg-7 col-md-7 nopadding header-section">
+	      <div class="center-align clearfix">        	
+	      	<div class="mid-logo">
+	          <img src="images/mid-logo.png" alt="mid-logo">
+	        </div>
+	        <div class="mid-disc">
+	          <h1>1 SUBSCRIPTION</h1>
+	          <h2>And get instant access to hundreds of gyms and fitness studios in your city.</h2>
+	        </div>
+	      </div>
+	      <form id="form"  name="form1" class="clearfix" action="http://www.vario.fitness/app/signup.php" method="post">
+	      	<div class="row nomargin">
+	          <input name="email" type="email" placeholder="Enter your email address here" required>
+	          	<select name="city_name" class="custom">
+	            	<option value="1" selected>Ahmedabad</option>
+	            	<option value="12">Bangalore</option>
+	            	<option value="10">Chennai</option>
+	            	<option value="9">Delhi</option>
+	            	<option value="5">Gandhinagar</option>
+	            	<option value="11">Hyderabad</option>
+	            	<option value="13">Kolkata</option>
+	            	<option value="6">Mumbai</option>
+	            	<option value="7">Navi mumbai</option>
+	            	<option value="8">Pune</option>
+	            	<option value="4">Rajkot</option>
+	            	<option value="3">Surat</option>
+	            	<option value="2">Vadodara</option>
+	            </select>
+	          </div>
+	          <div class="row nomargin text-center"><input name="save_home" type="submit" value="signup"></div>
+	      </form>
+			</div>
+		</div>
+
+		<div class="container-fluid nopadding mb-img clearfix">
+			<div class="col-lg-12">
+	    	<div class="row nomargin mb-logo">
+	   	    <img src="images/mb-logo.png" alt="mb-logo">
+	      </div>
+	      <div class="row mb-disc">
+	        <h1>1 SUBSCRIPTION</h1>
+	        <h2>And get instant access to hundreds of gyms and fitness studios in your city.</h2>
+	      </div>
+	      <form id="form" class="clearfix" action="#">
+        	<div class="row nomargin">
+            <input name="" type="email" placeholder="Enter your email address here" required>
+            <select name="city_name" class="custom">
+            	<option value="1" selected>Ahmedabad</option>
+            	<option value="12">Bangalore</option>
+            	<option value="10">Chennai</option>
+            	<option value="9">Delhi</option>
+            	<option value="5">Gandhinagar</option>
+            	<option value="11">Hyderabad</option>
+            	<option value="13">Kolkata</option>
+            	<option value="6">Mumbai</option>
+            	<option value="7">Navi mumbai</option>
+            	<option value="8">Pune</option>
+            	<option value="4">Rajkot</option>
+            	<option value="3">Surat</option>
+            	<option value="2">Vadodara</option>
+            </select>
+            </div>
+            <div class="row nomargin text-center"><input name="" type="submit" value="sign up"></div>
+        </form>
+	    </div>
+		</div>
+
+		<div class="container-fluid nopadding class">
+			<div class="container">
+		    <div class="row how-work clearfix">
+		  		<h1><span>How it</span> works</h1>        
+	        <ul class="nav nav-tabs" role="tablist">
+	          <li role="presentation" class="active col-lg-4 col-sm-4">
+	          	<a href="#search" aria-controls="home" role="tab" data-toggle="tab">
+	          		<aside>
+	            		<span class="icon icon-big search"></span>
+	            		<h5>Browse</h5>
+	            	</aside> 
+	            </a>
+	          </li>
+	          <li role="presentation" class="col-lg-4 col-sm-4">
+	          	<a href="#clock" aria-controls="profile" role="tab" data-toggle="tab">
+	              <aside>
+	              	<span class="icon icon-big clock"></span>
+	              	<h5>Reserve</h5>
+	              </aside>
+	            </a>
+	          </li>
+	          <li role="presentation" class="col-lg-4 col-sm-4">
+	          	<a href="#workout" aria-controls="messages" role="tab" data-toggle="tab">
+	          		<aside>
+	              	<span class="icon icon-big workout"></span>
+	              	<h5>Workout</h5>
+	              </aside>
+	            </a>
+	          </li>            
+	        </ul>
+		          
+	        <!-- Tab panes -->
+	        <div class="tab-content">
+	          <div role="tabpanel" class="tab-pane active field col-lg-8 col-sm-8 first" id="search">
+	          	<ul>
+	              <li class="col-lg-4 col-sm-4">
+	                <div class="sub-field">
+	                 	<span class="icon icon-small workout-2"></span>
+	            			<a href="#">Select your workout</a>
+	                </div>
+	              </li>
+	              <li class="col-lg-4 col-sm-4">
+	                <div class="sub-field">
+	                  <span class="icon icon-small setting"></span>
+	            			<a href="#">set preference</a>
+	                </div>
+	              </li>
+	              <li class="col-lg-4 col-sm-4">
+	              	<div class="sub-field">
+	                  <span class="icon gym"></span>
+	            			<a href="#">Choose the gym / studio to suit your need</a>
+	                </div>
+	              </li>
+	            </ul>
+	          </div>
+	          <div role="tabpanel" class="tab-pane field col-lg-8 col-sm-8 second" id="clock">
+	          	<ul>
+	            	<li class="col-lg-4 col-sm-4">
+	              	<div class="sub-field">
+	                  <span class="icon icon-small rupees"></span>
+	              		<a href="#">Subscribe</a>
+	                </div>
+	              </li>
+	              <li class="col-lg-4 col-sm-4">
+	              	<div class="sub-field">
+	                  <span class="icon icon-small class"></span>
+	              		<a href="#">Reserve your class in advance</a>
+	                </div>
+	              </li>
+	              <li class="col-lg-4 col-sm-4">
+	                <div class="sub-field">
+	                  <span class="icon icon-small calendar"></span>
+	              		<a href="#">Set your schedule for the week</a>
+	                </div>
+	              </li>
+	            </ul>
+	          </div>
+	          <div role="tabpanel" class="tab-pane field col-lg-6 col-sm-6 third" id="workout">
+	          	<ul>
+	            	<li class="col-lg-6 col-sm-6">
+	              	<div class="sub-field">
+	                  <span class="icon icon-small workout-3"></span>
+	              		<a href="#">Start working out</a>
+	                </div>
+	              </li>
+	              <li class="col-lg-6 col-sm-6">
+	              	<div class="sub-field">
+	                  <span class="icon icon-small fit"></span>
+	              		<a href="#">Become fit</a>
+	                </div>
+	              </li>                    
+	            </ul>
+	          </div>
+	        </div>
+		    </div>
+		  </div>
+		</div>
+
+		<div class="container-fluid nopadding"  id="Ctrl" ng-controller="indexController">
+			<div class="row nomargin vr">
+		    <span class="maptitle" id="map_start">Where <b>we are</b></span>
+		    <h2 class="mapsubtitle">Pick where you are. Pick how you want to get fit. Get moving!</h2>
+		    <div class="container">
+			    <div class="col-lg-12 marker-link">
+			      <a href="" class="loc-btn selected-link" ng-click="mapLoader('1','23.0395677','72.5660045','','','1')">Ahmedabad</a> | <a href="" class="loc-btn" ng-click="mapLoader('6','19.0176147','72.8561644','','','1')">Mumbai</a> | <a href="" class="loc-btn" ng-click="mapLoader('8','18.5204303','73.8567437','','','1')">Pune</a>
+			    </div>
+		    </div>
+		    <!-- Nav tabs -->
+		    <ul class="nav nav-tabs location" role="tablist">
+		      <li role="presentation" class="active"><a href="#map-marker" aria-controls="map-marker" role="tab" data-toggle="tab" ng-click="mapTab()"><span class="icon pin"></span></a></li>
+		      <li role="presentation"><a href="" aria-controls="map-listview" role="tab" data-toggle="tab" ng-click="detailTab()"><span class="icon listview"></span></a></li>
+		    </ul>        
+			    <!-- Tab panes -->
+			    <div class="tab-content">
+			      <div id="new_id">
+			      	<div role="tabpanel" class="tab-pane active" id="marker">
+			      		<div class="map_left" id="map"></div>
+			      	</div>
+			      </div>
+			      <div>
+			        <div id="new_1">
+			            
+			        </div>
+			    	</div>
+			    </div>
+			   <div class="container-fluid">
+			    <div class="row">
+			      <div class="col-lg-12">
+			        <div class="regime">
+			          <span class="regime_title">
+			            choose your <b>fitness regime</b>
+			          </span>
+			          <h2 class="regime_subtitle">
+			            Sweat level. Intensity. Variety. Take your pick.
+			          </h2>
+			        </div>
+			      </div>
+			    </div>
+			    <div class="row">
+			      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			        <div class="petalbox">
+			          <a  class="top_left">aerobics</a> 
+			          <a  class="top_right">dance &amp; fitness</a>
+			         	<a  class="bottom_left">zumba</a>
+			         	<a  class="bottom_right">cardio</a>
+			         	<span class="triangle t1">
+			            <span class="icon"></span>
+			         	</span>
+			        </div>
+			      </div>
+			      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			        <div class="petalbox">
+			          <a  class="top_left">Kickboxing</a> 
+			          <a  class="top_right">Mixed Martial Arts</a>
+			          <a  class="bottom_left">Kung Fu</a>
+			          <a  class="bottom_right">Karate</a>
+			          <span class="triangle t2">
+			            <span class="icon"></span>
+			          </span>
+			        </div>
+			      </div>
+			      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+			        <div class="petalbox">
+			          <a  class="top_left">Crossfit</a> 
+			          <a  class="top_right">Gym Workout</a>
+			          <a  class="bottom_left">TRX</a>
+			          <a  class="bottom_right">Pilates</a>
+			          <span class="triangle t3">
+			            <span class="icon"></span>
+			          </span>
+			        </div>
+			      </div>
+			    </div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-fluid nopadding lg-screen">
+			<div class="row nomargin mobilescreen">
+		    <div class="container">
+		    	<div id="myCarousel" class="carousel vertical slide row" data-ride="carousel">
+		        <div class="col-lg-6 col-sm-6">
+		            <h1><span>Go Mobile.</span> Get Moving!</h1>
+		            <h2 class="carousel__subheader">Download our app and plan your fitness regime on the go.<br>
+		            No compromise. No excuses.</h2>
+		            <ul class="carousel-indicators" id="screen-step">
+		              <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#">Login to the App</a></li>
+		              <li data-target="#myCarousel" data-slide-to="1"><a href="#">Take Your Pick For Getting Fit</a></li>
+		              <li data-target="#myCarousel" data-slide-to="2"><a href="#">Check The Details & Book</a></li>
+		              <li data-target="#myCarousel" data-slide-to="3"><a href="#">Manage Your Account</a></li>
+		              <li data-target="#myCarousel" data-slide-to="4"><a href="#">Customise Your Profile</a></li>
+		            </ul>
+		             <a href="https://itunes.apple.com/us/app/vario.fitness/id1031868476?mt=8"><img src="images/ios.png" alt="ios"></a>
+		            <a href="https://play.google.com/store/apps/details?id=com.saltriver.variopass&hl=en" class="gp"><img src="images/gp.png" alt="gp"></a>
+		        </div>
+		        <div class="col-lg-6 col-sm-6 phone">
+		        	<img src="images/mobile.png"alt="mobile" id="mobile-frame">
+		        	<div class="carousel-inner" id="mobile-app" role="listbox">
+		            <div class="item active">
+		              <img src="images/screen1.jpg" alt="screen1">
+		            </div>                
+		            <div class="item">
+		              <img src="images/screen2.jpg" alt="screen2">
+		            </div>                    
+		            <div class="item">
+		              <img src="images/screen3.jpg" alt="screen3">
+		            </div>                
+		            <div class="item">
+		              <img src="images/screen4.jpg" alt="screen4">
+		            </div>
+		            <div class="item">
+		              <img src="images/screen5.jpg" alt="screen5">
+		            </div>
+		          </div>
+		        </div>
+		      </div>
+		  	</div>
+			</div>
+		</div>
+
+		<div class="container-fluid nopadding xs-screen">
+			<div class="row nomargin mobilescreen">
+		    <div class="container">
+		    	<div id="myCarousel-xs" class="carousel vertical slide row" data-ride="carousel">
+		        <div class="col-lg-6 col-sm-6">
+		          <h1><span>Go Mobile.</span> Get Moving!</h1>
+		          <h2 class="carousel__subheader">Download our app and plan your fitness regime on the go.<br>
+		          No compromise. No excuses.</h2>
+		          <ul class="carousel-indicators" id="xs-screen-step">
+		            <li data-target="#myCarousel-xs" data-slide-to="0" class="active"><a href="#">Login</a>|</li>
+		            <li data-target="#myCarousel-xs" data-slide-to="1"><a href="#">Pick</a>|</li>
+		            <li data-target="#myCarousel-xs" data-slide-to="2"><a href="#">Check</a>|</li>
+		            <li data-target="#myCarousel-xs" data-slide-to="3"><a href="#">Manage</a></li>
+		            <li data-target="#myCarousel-xs" data-slide-to="4"><a href="#">Customise</a></li>
+		          </ul>                    
+		        </div>	
+		        <div class="clearfix"></div>
+		        <div class="col-lg-6 col-sm-6 phone">
+		        	<div class="carousel-inner" role="listbox">
+		            <div class="item active">
+		              <img src="images/screen1.jpg" alt="">
+		            </div>                
+		            <div class="item">
+		              <img src="images/screen2.jpg" alt="">
+		            </div>                    
+		            <div class="item">
+		              <img src="images/screen3.jpg" alt="">
+		            </div>                
+		            <div class="item">
+		              <img src="images/screen4.jpg" alt="">
+		            </div>
+		            <div class="item">
+		              <img src="images/screen5.jpg" alt="">
+		            </div>
+		          </div>
+		        </div>
+		        <div class="col-lg-12 app-icon">
+		        	  <a href="https://itunes.apple.com/us/app/vario.fitness/id1031868476?mt=8"><img src="images/ios.png" alt="ios"></a>
+		            <a href="https://play.google.com/store/apps/details?id=com.saltriver.variopass&hl=en" class="gp"><img src="images/gp.png"alt="gp"></a>
+		        </div>
+		      </div>                          
+		  	</div>
+			</div>
+		</div>
+		<div class="container">
+	    <div class="row">
+        <div class="col-lg-12">
+          <div class="stayline">
+            <div class="row">
+              <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                  <div>
+                    <span class="staylbl">Stay Updated on <b>New Launches</b></span>
+                    <span class="staylbl2">&nbsp;|  We never spam. Promise. </span>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class="subscribeform">
+                    <form action="#" method="post">
+                      <input type="email" placeholder="Email Address" required>
+                      <input type="submit" value="Go">
+                    </form>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <div class="phnum">
+                  <span class="phicon"></span>
+                  <span>+91 7574871728</span>
+                </div>
+                <div class="email">
+                  <span class="emailicon"></span>                  
+                  <a href="mailto:support@vario.fitness">support@vario.fitness</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+	    </div>
+		</div> 
+		<div class="footer">
+	    <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <div class="copy">
+              2015 @ VARIO.FITNESS
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <ul class="list-inline list-unstyled policy">
+							<li><a href="https://www.vario.fitness/help.php?page_id=286" target="_blank">About Us</a></li>
+              <li><a href="https://www.vario.fitness/help.php?page_id=15" target="_blank">Privacy Policy</a></li>
+              <li><a href="https://www.vario.fitness/help.php?page_id=17" target="_blank">Terms and Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <!-- <a href="javascript:void(0);" class="become">become AN instructor</a>  -->
+						<ul class="list-inline list-unstyled policy">             
+      	      <li><a href="https://www.vario.fitness/help.php?page_id=19" target="_blank">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+	    </div>
+		</div>
+    <script type="text/javascript">
+			//Google Analytics
+      //Sk Change
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-71115318-1', 'auto');
+      ga('send', 'pageview');
+      //End Google Analytics
+		</script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/service/varioFactory.js"></script>
+    <script type="text/javascript" src="js/controller/indexController.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('.how-work .nav-tabs > li > a').hover( function(){
+		  	$(this).tab('show');
+	   	});	   
+			$('.carousel').carousel({
+				interval: false
+			})
+    </script>
+    <script src="js/jquery.slimscroll.min.js"></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/jScrollPane.min.js"></script>
+		<script src="js/jquery.mousewheel.min.js"></script>
+	  <script src="js/SelectBox.min.js"></script>
+	  <script>
+	    $("select.custom").each(function() {
+	    	var sb = new  SelectBox({
+												selectbox: $(this),
+												height: 150
+										});
+	    						});		
+			$(window).scroll(function(){
+				if ($(window).scrollTop() >= 1) {
+			   	$('.header-nav').addClass('fixed-header');		   
+				} else {
+			   $('.header-nav').removeClass('fixed-header');		   
+				}
+			});
+    </script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/gmaps.min.js"></script>
+	</body>
+</html>
